@@ -2,6 +2,7 @@
 
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" isELIgnored="false" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -50,9 +51,9 @@
     <th>Delete</th>
 </tr>
 
- <c:forEach items = "${list}" var="u">
+ <c:forEach items = "${list}" var="u" varStatus="status">
      <tr>
-         <td>${u.seq}</td>
+         <td>${fn:length(list)-status.index}</td>
          <td>${u.semester}</td>
          <td>${u.category}</td>
          <td>${u.classs}</td>
