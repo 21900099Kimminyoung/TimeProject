@@ -11,6 +11,7 @@ public class BoardVO {
 	private String classCapacity;
 	private String email;
 	private Date regdate;
+	private String detail;
 
 	public int getSeq() {
 		return seq;
@@ -86,5 +87,11 @@ public class BoardVO {
 
 	private int cnt;
 
+	public String getDetail() {
+		return detail;
+	}
 
+	public void setDetail(String detail) {
+		this.detail = detail;
+	}
 }
