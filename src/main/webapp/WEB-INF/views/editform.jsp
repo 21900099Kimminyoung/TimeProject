@@ -20,6 +20,7 @@
         <tr><td>professor:</td><td><form:input path="professor"/></td></tr>
         <tr><td>classCapacity:</td><td><form:input path="classCapacity"/></td></tr>
         <tr><td>email:</td><td><form:input path="email"/></td></tr>
+        <tr><td>detail:</td><td><form:textarea cols="50" rows="10" path="detail"/></td></tr>
     </table>
     <input type="submit" value="수정하기" />
     <input type="button" value="Cancel" onclick="history.back()"/></td></tr>

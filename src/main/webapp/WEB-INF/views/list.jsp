@@ -47,6 +47,7 @@
     <th>ClassCapacity</th>
     <th>Email</th>
     <th>Regdate</th>
+    <th>Detail</th>
     <th>Edit</th>
     <th>Delete</th>
 </tr>
@@ -61,6 +62,7 @@
          <td>${u.classCapacity}</td>
          <td>${u.email}</td>
          <td>${u.regdate}</td>
+         <td>${u.detail}</td>
          <td><a href="editform/${u.seq}">Edit</a></td>
          <td><a href="javascript:delete_ok('${u.seq}')">Delete</a></td>
      </tr>
