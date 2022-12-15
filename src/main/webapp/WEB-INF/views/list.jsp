@@ -39,17 +39,17 @@
 <h1>강의평 게시판</h1>
 <table id="list" width="90%">
 <tr>
-    <th>Id</th>
-    <th>Semester</th>
-    <th>Category</th>
-    <th>Classs</th>
-    <th>Professor</th>
-    <th>ClassCapacity</th>
+    <th>ID</th>
+    <th>학기</th>
+    <th>학부</th>
+    <th>과목명</th>
+    <th>교수</th>
+    <th>정원</th>
     <th>Email</th>
-    <th>Regdate</th>
-    <th>Detail</th>
-    <th>Edit</th>
-    <th>Delete</th>
+    <th>등록일자</th>
+    <th>강의평</th>
+    <th>수정</th>
+    <th>삭제</th>
 </tr>
 
  <c:forEach items = "${list}" var="u" varStatus="status">
