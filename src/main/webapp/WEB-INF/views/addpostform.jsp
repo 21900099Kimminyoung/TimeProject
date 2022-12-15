@@ -25,11 +25,14 @@
         </tr>
 
         <tr><td>category:</td><td><input type="text" name="category"/></td></tr>
+
         <tr><td>classs:</td><td><input type="text" name="classs" placeholder="Class Name"/></td></tr>
-        <tr><td>professor:</td><td><input type="text" name="professor" placeholder="Professor Name"/></td></tr>
+        <tr><td>professor:</td><td><input type="text" name="professor" placeholder="Professor's Name"/></td></tr>
+
         <tr><td>classCapacity:</td><td><input type="text" name="classCapacity"/></td></tr>
-        <tr><td>email:</td><td><input type="text" name="email"/></td></tr>
-        <tr><td>detail:</td><td><textarea cols="50" rows="10" name="detail"></textarea></td></tr>
+
+        <tr><td>email:</td><td><textarea cols="30" rows="1" name="email" placeholder="Professor's Email address"></textarea></td></tr>
+        <tr><td>detail:</td><td><textarea cols="50" rows="10" name="detail" placeholder="Your Review for Class"></textarea></td></tr>
     </table>
     <button type="button" onclick="location.href='list'">목록보기</button>
     <button type="submit">등록하기</button>
