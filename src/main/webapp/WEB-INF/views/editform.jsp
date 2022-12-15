@@ -14,7 +14,16 @@
 <form:form modelAttribute="boardVO" method="POST" action="../editok">
     <form:hidden path="seq"/>
     <table id="edit">
-        <tr><td>semester:</td><td><form:input path="semester"/></td></tr>
+        <tr><td>semester:</td>
+            <td>
+                <form:radiobutton path="semester" value="20-1"/>20-1
+                <form:radiobutton path="semester" value="20-2"/>20-2
+                <form:radiobutton path="semester" value="21-1"/>21-1
+                <form:radiobutton path="semester" value="21-2"/>21-2
+                <form:radiobutton path="semester" value="22-1"/>22-1
+                <form:radiobutton path="semester" value="22-2"/>22-2
+            </td>
+        </tr>
         <tr><td>category:</td><td><form:input path="category"/></td></tr>
         <tr><td>classs:</td><td><form:input path="classs"/></td></tr>
         <tr><td>professor:</td><td><form:input path="professor"/></td></tr>
