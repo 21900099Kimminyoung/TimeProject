@@ -28,6 +28,7 @@
         <tr><td>등록일자: </td><td>${boardVO.regdate}</td></tr>
         <tr><td>강의평: </td><td>${boardVO.detail}</td></tr>
     </table>
+    <input type="button" value="목록으로 돌아가기" onclick="history.back()"/>
 </form:form>
 
 </body>
