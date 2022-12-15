@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf536cac-4baf-404a-b9e9-073f1327ed6e" name="변경" comment="modified">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
+    <list default="true" id="cf536cac-4baf-404a-b9e9-073f1327ed6e" name="변경" comment="changed semester type to radiobutton">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +220,7 @@
       <workItem from="1671000682865" duration="3106000" />
       <workItem from="1671004493594" duration="40000" />
       <workItem from="1671004591230" duration="653000" />
-      <workItem from="1671024229947" duration="5637000" />
+      <workItem from="1671024229947" duration="9213000" />
     </task>
     <task id="LOCAL-00001" summary="javax.servlet added">
       <created>1671024771659</created>
@@ -284,7 +285,49 @@
       <option name="project" value="LOCAL" />
       <updated>1671072222897</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="input type changed to textarea for email">
+      <created>1671072491375</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671072491375</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modified">
+      <created>1671072498695</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671072498695</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changed category input type to select">
+      <created>1671079363818</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671079363818</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changed classCapacity input type to select">
+      <created>1671079614693</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671079614693</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changed display table's index">
+      <created>1671079758585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671079758585</updated>
+    </task>
+    <task id="LOCAL-00015" summary="changed semester type to radiobutton">
+      <created>1671080110645</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671080110645</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +351,12 @@
     <MESSAGE value="added detail" />
     <MESSAGE value="modified SQL" />
     <MESSAGE value="set semester input type to radiobutton" />
+    <MESSAGE value="input type changed to textarea for email" />
     <MESSAGE value="modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified" />
+    <MESSAGE value="changed category input type to select" />
+    <MESSAGE value="changed classCapacity input type to select" />
+    <MESSAGE value="changed display table's index" />
+    <MESSAGE value="changed semester type to radiobutton" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed semester type to radiobutton" />
   </component>
 </project>
