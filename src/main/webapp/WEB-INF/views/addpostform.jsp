@@ -6,10 +6,47 @@
     <meta charset="UTF-8">
     <title>Insert title here</title>
 </head>
+<script type="text/javascript">
+    function validateForm(){
+        if(document.forms["dataForm"]["semester"][0].checked==false
+            &&document.forms["dataForm"]["semester"][1].checked==false
+            &&document.forms["dataForm"]["semester"][2].checked==false
+            &&document.forms["dataForm"]["semester"][3].checked==false
+            &&document.forms["dataForm"]["semester"][4].checked==false
+            &&document.forms["dataForm"]["semester"][5].checked==false){
+            alert("Choose Semester!");
+            return false;
+        }
+        if(document.forms["dataForm"]["category"].value==""){
+            alert("Choose Category!");
+            return false;
+        }
+        if(document.forms["dataForm"]["classs"].value==""){
+            alert("Fill Out Class Name!");
+            return false;
+        }
+        if(document.forms["dataForm"]["professor"].value==""){
+            alert("Fill Out Professor's Name!");
+            return false;
+        }
+        if(document.forms["dataForm"]["classCapacity"].value==""){
+            alert("Choose Class's Capacity!");
+            return false;
+        }
+        if(document.forms["dataForm"]["email"].value==""){
+            alert("Fill Out Professor's Email!");
+            return false;
+        }
+        if(document.forms["dataForm"]["detail"].value==""){
+            alert("Fill Out With Your Thoughts About This Class!");
+            return false;
+        }
+    }
+</script>
 <body>
 
 <h1>Add New Post</h1>
-<form action="addok" method="post">
+<form name="dataForm" action="addok" method="post" onsubmit="return validateForm()">
     <table id="edit">
 <%--        <tr><td>semester:</td><td><input type="text" name="semester"/></td></tr>--%>
         <tr>
@@ -54,6 +91,7 @@
             <td>
 <%--                <input type="text" name="classCapacity"/>--%>
                 <select name="classCapacity">
+                    <option value="">--정원--</option>
                     <option value="20">20</option>
                     <option value="25">25</option>
                     <option value="30">30</option>
