@@ -44,10 +44,11 @@
     <th>학부</th>
     <th>과목명</th>
     <th>교수</th>
-    <th>정원</th>
-    <th>Email</th>
+<%--    <th>정원</th>--%>
+<%--    <th>Email</th>--%>
     <th>등록일자</th>
-    <th>강의평</th>
+<%--    <th>강의평</th>--%>
+    <th>자세히 보기</th>
     <th>수정</th>
     <th>삭제</th>
 </tr>
@@ -59,10 +60,11 @@
          <td>${u.category}</td>
          <td>${u.classs}</td>
          <td>${u.professor}</td>
-         <td>${u.classCapacity}</td>
-         <td>${u.email}</td>
+<%--         <td>${u.classCapacity}</td>--%>
+<%--         <td>${u.email}</td>--%>
          <td>${u.regdate}</td>
-         <td>${u.detail}</td>
+<%--         <td>${u.detail}</td>--%>
+         <td><a href="viewdetail/${u.seq}">Details</a></td>
          <td><a href="editform/${u.seq}">Edit</a></td>
          <td><a href="javascript:delete_ok('${u.seq}')">Delete</a></td>
      </tr>
