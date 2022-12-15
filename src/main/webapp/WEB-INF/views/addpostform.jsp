@@ -53,7 +53,15 @@
             <td>classCapacity:</td>
             <td>
 <%--                <input type="text" name="classCapacity"/>--%>
-                <select name="classCapacity"
+                <select name="classCapacity">
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50+">50 or more</option>
+                </select>
             </td>
         </tr>
 
