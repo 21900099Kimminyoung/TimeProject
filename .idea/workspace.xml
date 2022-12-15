@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf536cac-4baf-404a-b9e9-073f1327ed6e" name="변경" comment="modified">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/validateForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +90,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/img" />
     </key>
@@ -226,7 +224,7 @@
       <workItem from="1671000682865" duration="3106000" />
       <workItem from="1671004493594" duration="40000" />
       <workItem from="1671004591230" duration="653000" />
-      <workItem from="1671024229947" duration="17921000" />
+      <workItem from="1671024229947" duration="18621000" />
     </task>
     <task id="LOCAL-00001" summary="javax.servlet added">
       <created>1671024771659</created>
@@ -396,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671085308135</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added validateForm js to check empty entries">
+      <created>1671090415349</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671090415349</updated>
+    </task>
+    <task id="LOCAL-00026" summary="modified">
+      <created>1671090425152</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671090425152</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +443,7 @@
     <MESSAGE value="added viewdetail method" />
     <MESSAGE value="changed email input type to textarea" />
     <MESSAGE value="added button to return to list" />
+    <MESSAGE value="added validateForm js to check empty entries" />
     <MESSAGE value="modified" />
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
