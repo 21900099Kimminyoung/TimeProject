@@ -40,6 +40,13 @@ public class BoardController {
         return "editform";
     }
 
+    @RequestMapping(value = "/viewdetail/{id}",method = RequestMethod.GET)
+    public String viewDetail(@PathVariable("id") int id, Model model){
+        BoardVO boardVO = boardService.getBoard(id);
+        model.addAttribute("boardVO",boardVO);
+        return "viewdetail";
+    }
+
     @RequestMapping(value = "/editok", method = RequestMethod.POST)
     public String editPostOK(BoardVO vo){
         int i = boardService.updateBoard(vo);
