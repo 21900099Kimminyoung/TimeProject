@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf536cac-4baf-404a-b9e9-073f1327ed6e" name="변경" comment="modified">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +219,7 @@
       <workItem from="1671000682865" duration="3106000" />
       <workItem from="1671004493594" duration="40000" />
       <workItem from="1671004591230" duration="653000" />
-      <workItem from="1671024229947" duration="5302000" />
+      <workItem from="1671024229947" duration="5637000" />
     </task>
     <task id="LOCAL-00001" summary="javax.servlet added">
       <created>1671024771659</created>
@@ -271,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671027195562</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="set semester input type to radiobutton">
+      <created>1671072209465</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671072209465</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modified">
+      <created>1671072222897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671072222897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +307,7 @@
     <MESSAGE value="added detail column" />
     <MESSAGE value="added detail" />
     <MESSAGE value="modified SQL" />
+    <MESSAGE value="set semester input type to radiobutton" />
     <MESSAGE value="modified" />
     <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
