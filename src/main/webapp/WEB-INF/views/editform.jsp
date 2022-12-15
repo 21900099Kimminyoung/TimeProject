@@ -62,7 +62,7 @@
                 </form:select>
             </td>
         </tr>
-        <tr><td>email:</td><td><form:input path="email"/></td></tr>
+        <tr><td>email:</td><td><form:textarea cols="30" rows="1" path="email"/></td></tr>
         <tr><td>detail:</td><td><form:textarea cols="50" rows="10" path="detail"/></td></tr>
     </table>
     <input type="submit" value="수정하기" />
